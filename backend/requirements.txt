@@ -1,0 +1,33 @@
+# BidSentry Backend Dependencies
+# ================================
+
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Database
+motor==3.7.0
+pymongo==4.11.3
+
+# Environment
+python-dotenv==1.0.1
+
+# AI / ML
+paddlepaddle==3.0.0
+paddleocr==2.9.1
+sentence-transformers==3.4.1
+scikit-learn==1.6.1
+
+# HTTP client (for OpenRouter API)
+httpx==0.28.1
+
+# PDF processing
+PyPDF2==3.0.1
+Pillow==11.1.0
+
+# Data validation
+pydantic==2.10.5
+
+# Utilities
+python-dateutil==2.9.0
