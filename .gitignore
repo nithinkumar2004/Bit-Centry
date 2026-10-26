@@ -14,7 +14,6 @@ env/
 .venv/
 
 # Environment variables
-.env
 
 # Uploads
 uploads/
